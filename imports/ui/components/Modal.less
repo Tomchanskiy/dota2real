@@ -1,0 +1,68 @@
+.modal-chat {
+  width: 350px;
+  background: #242635;
+  margin: 0 auto;
+  position: relative;
+
+  .close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 22px;
+    color: #fff;
+    padding: 0 5px;
+    background: #1e202e;
+    transition: color 0.3s ease;
+    cursor: pointer;
+
+    &:hover, &:focus {
+      color: #ffce49;
+    }
+  }
+
+  .modal-title {
+    padding: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .modal-rules {
+    padding: 0 20px;
+
+    ul {
+      list-style: none;
+      padding-left: 10px;
+      font-size: 14px;
+      margin: 0;
+
+      li {
+        color: #fff;
+        font-weight: normal;
+
+        &:before {
+          content: "\2013";
+          position: relative;
+          left: -10px;
+        }
+      }
+    }
+  }
+
+  .modal-subtext {
+    background: #1e202e;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: 100;
+    font-size: 14px;
+  }
+
+  .modal-thanks {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 0 20px 20px 20px;
+  }
+}

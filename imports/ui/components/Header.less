@@ -1,0 +1,171 @@
+.header-full {
+  width: 100%;
+  min-width: 1170px;
+  background: #11141d;
+
+  .header {
+    height: 80px;
+    width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-block {
+      display: flex;
+      align-items: center;
+
+      .bets {
+        color: #ffce49;
+        text-decoration: none;
+        font-size: 16px;
+        transition: color 0.3s ease;
+        font-weight: 500;
+        margin-left: 20px;
+        text-transform: uppercase;
+
+        &:hover, &:focus {
+          color: #fff;
+        }
+      }
+    }
+
+    .right-block {
+      display: flex;
+      align-items: center;
+
+      .nav {
+        padding: 0;
+        margin: 0;
+
+        li {
+          display: inline;
+          list-style-type: none;
+          margin: 0 10px;
+
+          &:last-child {
+            margin-right: 20px;
+          }
+
+          a {
+            color: #676e81;
+            text-decoration: none;
+            transition: color 0.3s ease;
+            font-size: 14px;
+            text-transform: uppercase;
+
+            &:hover, &:focus {
+              color: #fff;
+            }
+          }
+        }
+      }
+
+      .btn-login {
+        background: #475270;
+        padding: 8px 15px;
+        line-height: 24px;
+
+        &:hover, &:focus {
+          background: #3b445d;
+        }
+
+        i {
+          font-size: 22px;
+          margin-right: 10px;
+        }
+      }
+
+      .logged-in {
+        display: flex;
+        align-items: center;
+
+        .dropdown {
+          position: relative;
+          display: inline-block;
+
+          &:hover, &:focus {
+            cursor: pointer;
+          }
+
+          &:hover .dropdown-content {
+            display: block;
+          }
+
+          &:hover span {
+            color: #fff;
+          }
+
+          img {
+            width: 36px;
+            height: 36px;
+          }
+
+          span {
+            font-size: 14px;
+            text-transform: uppercase;
+            color: #676e81;
+            margin-left: 10px;
+            position: relative;
+            bottom: 12px;
+            transition: color 0.3s ease;
+          }
+
+          .dropdown-content {
+            display: none;
+            position: absolute;
+            background: #30333e;
+            min-width: 150px;
+            padding: 10px 0;
+            z-index: 1;
+
+            ul {
+              margin: 0;
+              padding: 0;
+
+              li {
+                list-style-type: none;
+                line-height: 24px;
+                transition: background 0.3s ease;
+                padding: 0 10px; 
+                cursor: auto;
+
+                &:hover, &:focus {
+                  background: #1e202e;
+                }
+
+                a {
+                  text-decoration: none;
+                  color: #fff;
+                  font-size: 12px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+        }
+
+        .btn-site {
+          background: #475270;
+          padding: 10px 20px;
+          margin: 0 10px 0 20px;
+
+          &:hover, &:focus {
+            background: #3b445d;
+          }
+        }
+
+        .btn-client {
+          background: #55517c;
+          padding: 10px 20px;
+          margin: 0 0 0 10px; 
+
+          &:hover, &:focus {
+            background: #514f6a;
+          }
+        }
+      }
+    }
+  }
+}

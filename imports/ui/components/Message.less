@@ -1,0 +1,66 @@
+.message-block {
+  display: flex;
+  margin: 15px 10px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  .user {
+    margin-right: 10px;
+
+    a {
+      height: 36px;
+      display: block;
+
+      img {
+        height: 36px;
+        width: 36px;
+      }
+    }
+  }
+
+  .message-info {
+    .message-desc {
+      font-size: 14px;
+      color: #fff;
+      font-weight: 500;
+      word-break: break-all;
+      margin-bottom: 5px;
+      width: 179px;
+
+      a {
+        color: #a9ecff;
+        transition: color 0.3s ease;
+        text-decoration: none;
+
+        &:hover, &:focus {
+          color: #ffce49;
+        }
+      }
+
+      span {
+        font-size: 10px;
+        line-height: 18px;
+        color: #ffce49;
+        margin-right: 10px;
+        font-weight: 500;
+        float: right;
+      }
+    }
+    .message {
+      color: #fff;
+      font-size: 12px;
+      line-height: 14px;
+      font-weight: normal;
+      
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

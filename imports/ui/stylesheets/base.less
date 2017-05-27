@@ -1,0 +1,78 @@
+body {
+  font-family: 'Avenir Next W1G', sans-serif;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.main-full {
+  width: 100%;
+  height: 100vh;
+  min-width: 1170px;
+  min-height: 650px;
+  background: url('/img/main-bg.jpg') no-repeat center;
+  background-size: cover;
+
+  .main {
+    width: 1140px;
+    padding: 50px 15px;
+    margin: 0 auto;
+    display: flex;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.btn {
+  font-family: 'Avenir Next W1G', sans-serif;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: background 0.3s ease;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-link {
+  font-family: 'Avenir Next W1G', sans-serif;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.placeholder() {
+  &::-webkit-input-placeholder {
+    color: #fff;
+  }
+  &:-moz-placeholder {
+    color: #fff;
+  }
+  &::-moz-placeholder {
+    color: #fff;
+  }
+  &:-ms-input-placeholder {
+    color: #fff;
+  }
+}
+
+a {
+  outline: none;
+
+  &:hover, &:focus {
+    outline: none;
+  }
+}

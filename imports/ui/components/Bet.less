@@ -1,0 +1,59 @@
+.bet {
+  display: flex;
+  margin: 10px;
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+
+  .user {
+    margin-right: 10px;
+
+    a {
+      height: 36px;
+      display: block;
+
+      img {
+        height: 36px;
+        width: 36px;
+      }
+    }
+
+    .win-chance {
+      width: 36px;
+      text-align: center;
+      font-size: 10px;
+      font-weight: 500;
+      color: #fff;
+      background: #55517c;
+    }
+  }
+
+  .bet-info {
+    .bet-desc {
+      font-size: 14px;
+      color: #fff;
+      font-weight: 100;
+      margin-bottom: 5px;
+
+      a {
+        color: #a9ecff;
+        transition: color 0.3s ease;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover, &:focus {
+          color: #ffce49;
+        }
+      }
+    }
+
+    .bet-items {
+      img {
+        margin-right: 2px;
+        width: 36px;
+        height: 24px;
+      }
+    }
+  }
+}

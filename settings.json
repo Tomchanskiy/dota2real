@@ -1,0 +1,8 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb://brezhitskiy42:j7K9R9PE93Suh5hk@ds129391-a0.mlab.com:29391,ds129391-a1.mlab.com:29391/dota2real?replicaSet=rs-ds129391",
+      "MONGO_OPLOG_URL": "mongodb://brezhitskiy42_oplog:j7K9R9PE93Suh5hk@ds129391-a0.mlab.com:29391,ds129391-a1.mlab.com:29391/local?authSource=admin&replicaSet=rs-ds129391"
+    }
+  }
+}
